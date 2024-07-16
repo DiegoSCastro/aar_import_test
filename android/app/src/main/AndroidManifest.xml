@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.diegocastro.android.aar_import_test.app">>
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.diegocastro.android.aar_import_test.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
@@ -30,7 +31,10 @@
         </activity>
         <meta-data
             android:name="com.mercadolibre.android.sdk.CLIENT_ID"
-            android:value="193213529837179" />
+            android:value="193213529837179L" />
+        <meta-data
+            android:name="com.mercadolibre.android.sdk.OAUTH_ENABLED"
+            android:value="false" />
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data

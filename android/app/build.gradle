@@ -64,10 +64,10 @@ flutter {
 
 dependencies {
 //    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-//    implementation(name: 'nativesdk-mainapp-2.8.0', ext: 'aar')
+    implementation(name: 'nativesdk-mainapp-2.8.2', ext: 'aar')
 //    implementation(name: 'nativesdk-miniapp-2.8.0', ext: 'aar')
 //    mainappImplementation files("libs/nativesdk-mainapp-2.8.0.aar")
-    implementation files("libs/nativesdk-miniapp-2.8.0.aar")
+    // implementation files("libs/nativesdk-miniapp-2.8.0.aar")
 }
 
 repositories {
