@@ -1,3 +1,5 @@
+import 'dart:nativewrappers/_internal/vm/lib/developer.dart';
+
 import 'package:flutter/services.dart';
 
 class NativeSdk {
@@ -7,7 +9,7 @@ class NativeSdk {
     try {
       await _channel.invokeMethod('withBluetoothConfig');
     } on PlatformException catch (e) {
-      print("Failed to call method: ${e.message}");
+      log("Failed to call method: ${e.message}");
     }
   }
 }
